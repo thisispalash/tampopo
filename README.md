@@ -3,6 +3,8 @@
 
 We can be anyone we want to be on the internet, so let's all be real, in the hopes of abolishing from this world duality we may rise above and all be cubed !
 
+<small>Made as a part of [EthOnline 2021](https://web.archive.org/web/20210912132034/https://online.ethglobal.com/). Check out the submission [here](https://showcase.ethglobal.com/ethonline2021/tampopo-dot-eth)!</small>
+
 ## The Revolution
 
 At the end of the day, all of us are stories (some lucky one get to be songs); This project aims to connect stories and _web3_ by providing the space (in your time) for you to outpour your stories for the world. The world is filled with stories, which for one reason or another, are often silenced; no more! Web3 abstracts all entities into nodes, not caring if the node represents an idea, a machine, an organisation, or a person; Furthermore, these nodes can have their own economy, thereby, in some sense, enabling barter systems; or a global creative economy.
@@ -38,11 +40,27 @@ In summary, you create a persona on either website (`emptyyourcup.com` || `pullm
 
 ### Future Considerations
 
-- [ ] tampopo [dot] eth for *meaningful* and insightful stats of the network
-- [ ] alternate document formats, such as poetry, plays, scripts, etc.
-- [ ] openAI integrations for *fun* and convenience
+- [ ] tampopo [dot] eth explorers for *meaningful* and insightful stats of the network
+- [ ] alternate document specifications, such as poetry, plays, scripts, etc.
+- [ ] openAI integrations for *fun*, and convenience
 
+### Branch Information
+
+This repository is split into three branches - [`land`](), [`runway`](), and [`takeoff`](). You first *land* onto the default branch, then browse current code on the *runway*, or directly *takeoff* using a released version.
+
+- `land` This is the default branch for the repository, with Github Pages set up for explaining the project. It also contains more user friendly docs, explaining the project in simpler language for the average *stumbler*.
+- `runway` This branch is akin to the `master` or `dev` branch, which hosts in development code for future releases. Feel free to [browse around]() but beware, you require some technical knowledge to truly understand the code
+- `takeoff` This branch is akin to the `release` branch, ie, code here is well documented and the readme(s) are proper. The technical prerequistes for browsing around are somewhere in between `land` and `runway`.
 
 ## Further Reading
-> TODO
 
+The `docs` provide a good start to the project; Open the folder and pick any file that interests you. Or click for the specific file based on short descriptionbs below,
+
+- [ ] [`colours.md`]() 
+- [ ] [`externals.md`]() 
+- [ ] [`functionality.md`]() 
+- [ ] [`merging.md`]() 
+- [ ] [`scalability.md`]() 
+- [ ] [`security.md`]() 
+- [ ] [`tokenomics.md`]() 
+- [ ] [`trotter.md`]() 
