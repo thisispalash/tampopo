@@ -1,5 +1,5 @@
 # tampopo [dot] eth
-> Empty your cup and lay down threads for others to pull !
+> Won't you unravel me, my love ?!
 
 We can be anyone we want to be on the internet, so let's all be real, in the hopes of abolishing from this world duality we may rise above and all be cubed !
 
@@ -16,54 +16,33 @@ Web3 also brings forth, and indeed hyperboles, the transactional nature of the m
 - On _seeing colour_ - The two main ways to interact with the network is via `emptyyourcup.com` and `pullmythread.com`. However, you may also visit `tampopo.eth` where you may choose the _persona_ [read: colour] you want to read [read: see] and there is a cost associated with this choice, at some constant rate per click.
 - Being _invited_ - A storyteller may also choose to invite you to read a story (or the world, by making it public) where the [cost] rate in _seeing colour_ is now the rate of minting fresh `TP` tokens.
 
-## `TP` Tokens
+## Network Information
 
-Trivially `TP` stands for `tampopo`, but more interestingly [read: creatively], it stands for `timepass` (or `toilet paper`, depending on the goggles); because, the whole point of this project is to pass time by sharing and hearing stories and connecting with strangers* on the interwebs. Indeed, is there a better way to pass your time; for here you may _check out_ people in the convoluted and interactive _library_ and (perhaps) learn something new.
+tampopo consists of three networks - i. the default `mainchain` where all the action happens; ii. a `draftchain` for storytellers to get some feedback on their stories prior to publishing; and iii. a `hidechain` for permissioned access to a story, ie, invite-only story views for more sensitive content. Each chain uses a different Ethereum chain (such as `homestead`, `ropsten`, etc.) for their unique capabilities, as explained further;
 
-**tokenomics** As you have probably guessed by now, there is no real upper limit to the number of `TP` tokens. `tampopo.eth` is the main address of the project, which holds the minted `TP` tokens and the donated alts. This address also serves as the community fund, helping out those who can not (or may not) help themselves; kinda like pay-it-forward coffee. Additionally, as each _storyteller_ is identified with a subdomain of `tampopo.eth` (as `<persona>.tampopo.eth`), the mint and alt duality exists for every storyteller as well; every effort is made to make the private keys human friendly.
+**mainchain** This is the default chain for the network, running as a layer-2 chain on the main Ethereum Network (`homestead`). A bunch of smart contracts help peg the value of `tP` tokens to ether, and thus real-world* value. Every public story that is publised to the network resides as a story hash on this chain.
 
-**cryptonomics** The other part of the `TP` tokens (or any crypto token for that matter) is the **private** key. Like addresses, private keys are not _human friendly_. Some attempt is made to abstract the keys to _n_ word seeds, however even these are not nice to remember. Treating seeds as elongated passwords seems like a good idea, and as such users are encouraged (and assisted in) to create _memorable_ seeds which can then be used to regenerate their private key. Additionally, multi-sig is used extensively to add another layer of complexity, and to share the _burden_ of knowledge.
-> ___note___ these ideas are still quite raw and in need of further exploration into the hard math behind ECC; a possible solution lies in using semaphores from ethereum foundation's Privacy and Scaling explorations group, combined with _creative_ suggestions
+**draftchain** This is the chain where the points are made up, and the rules don't matter. Effectively, it is the wild wild west, designed for more chaotic creations, as close to `main` conditions. As a result, implemented on Ethereum's `ropsten` network. The idea is to store drafts here, until it is ready to be published on the main network.
+
+**hidechain** This is a Proof of Authority chain (as opposed to PoW (and maybe PoS) above) to enable DPoS voting, while separating the votes from money and its related data. Effectively, the aim here is to form something like Twitter's [Communities](https://blog.twitter.com/en_us/topics/product/2021/testing-communities) because this network can also be used for whitsleblowing, or fighting injustice. In some [naive] way linking web3 and twitter, to give the (armchair) activists some teeth, if you will.
 
 
-### Current* Constants
-> I think they're quite funny, don't you?
+## Contributing Guidelines
+> read: participating with the network
 
-`69 TP` minted on registration at `tampopo.eth`
-> oh so intimate! welcome to the club!!
+The beautiful thing about open-source, is that you can *copypasta*. Moreover, code is a language; one to express ideas in (shamelessly stolen from [Lex Clips](https://www.youtube.com/c/LexClips)), and as such these are my ideas, hence there is no contributing, per se, permitted. Having said that, since the entire repository is under a [copyleft license](), you are free to fork it or even just copy individual lines from any file (*note:* the license mentions stating source of code, but also emphasises no liability, thereby making a sort of honour system possible; so, will you be honourable?).
 
-`420 TP` minted on publishing a story at `emptyyourcup.com`
-> come, let's sesh with some buds!!!
+Also, the most ideal, and indeed quickest for it is designed as so, way to *contribute* to the network, is to *participate* in it - either by [emptying your cup]() or by [filling it](). Either link helps mine `tP` tokens, which are made real by purchases of stories as memorablia of the time shared together (across space) [as an NFT [read: ERC-1155 multitoken]]. Of course, you may read stories for free without paying anything, but then I would be obliged to refer you to the honour code mentioned above.
 
-`(420/n * m) TP` minted on every link click at `pullmythread.com`
-- `n` :: Number of links to click in the story
-- `m` :: Number of stumbles until your story reached
+In summary, you create a persona on either website (`emptyyourcup.com` || `pullmythread.com`) to share your stories or consume others' stories (respectively). Either of those activities mines fresh `tP` network tokens, which are made real* and consumable using some [web3 magic](). The idea behind the network is effectively an idea, that of existential dread - for aren't we all just stories at the end of it all? If so, why not become immortal together and scream out our [colourful] stories into the abyss*? This network is that abyss, with some effort to make sense of the chaos as well, of course.
 
-`6.9 TP` minted on every link click on _seeing colour_ at `tampopo.eth`
-> a fun activity stopped by a period [read: thought [read: ego]]
+### Future Considerations
 
-## External Projects Used*
+- [ ] tampopo [dot] eth for *meaningful* and insightful stats of the network
+- [ ] alternate document formats, such as poetry, plays, scripts, etc.
+- [ ] openAI integrations for *fun* and convenience
 
-**_persona_ registration**
-- [ ] Ethereum Name Service
-- [ ] Ethereum Foundation Semaphores
 
-**story publishing**
-- [ ] The Graph
-- [ ] EthBlockArt
-- [ ] web3.storage
-- [ ] Rarible Protocol
+## Further Reading
+> TODO
 
-**streaming alts**
-- [ ] Superfluid
-- [ ] Gas Station Network
-
-### [future] OpenAI extensions
-
-- [ ] speech to text for storytelling
-- [ ] text to speech for storyreading
-- fun stuff with data?
-  - [ ] cooler artwork generation from semantics
-  - [ ] mint on providing data; ie, on interacting
-  - [ ] seed [read: key] generation using story data
-  - [ ] colour suggestion and more efficient stumbles
