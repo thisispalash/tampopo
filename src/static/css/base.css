@@ -1,4 +1,79 @@
+
+/* reset all */
+
+html, body, div, p, span, a {
+
+}
+
+/* customise tags */
+
 body {
-  background-color: aquamarine;
-  color: chocolate;
+  background-color: antiquewhite;
+  color: #333;
+  font-family: monospace;
+}
+
+div {
+
+}
+
+p {
+
+}
+
+a {
+
+}
+
+/* define defaults */
+
+.dark {
+  background-color: #333;
+  color: antiquewhite;
+}
+
+.dark > a {
+
+}
+
+
+.base-font {
+
+  font-size: 1.3rem;
+
+}
+
+.small-font {
+
+  font-size: 0.8rem;
+
+}
+
+.big-font {
+
+  font-size: 2.1rem;
+
+}
+
+
+/*  */
+
+
+div.container {
+
+  padding: 1rem;
+  margin: 2rem 3rem;
+
+}
+
+div.story {
+
+}
+
+p.paragraph {
+
+}
+
+span.phrase {
+
 }
