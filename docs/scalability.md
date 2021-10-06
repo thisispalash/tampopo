@@ -3,7 +3,7 @@
 
 ## Rethinking Nodes
 
-One of the best aspects of web3 is its permissionless entry to the network, by anyone being able to set up a *node* for the network. However, for most networks, it is still quite technically challenging, and the average user would rather be abstracted away from it. If they so choose, they may learn more by reading the code and these docs to learn how nodes work and operate. As such, this project is divided into two main parts — the web3 address and decentralised website; and the familiar interface to the network in the form of `emtyyourmind.com` and `pullmythread.com`. 
+One of the best aspects of web3 is its permissionless entry to the network, by anyone being able to set up a *node* for the network. However, for most networks, it is still quite technically challenging, and the average user would rather be abstracted away from it. If they so choose, they may learn more by reading the code and these docs to learn how nodes work and operate. As such, this project is divided into two main parts — the web3 address and decentralised website; and the familiar interface to the network in the form of `emtyyourmug.com` and `pullmythread.com`.
 
 The decentralised version (at `tampopo.eth`) serves as a website and the main address for community funds. Moreover, it is designed keeping the avid blockchainer in mind (so, you are familiar with, *and use*, metamask, some crypto exchange, and perhaps even have some investments), ie, no spoonfeeding. The spoonfed versions, and highly automated, versions are on the traditional internet (compare with TradFi?). One thing that always bothered me was that engagement and behaviour tracking is used primarily for ad revenue, which seems like the opposite of what we should be doing - making that data accessible so users may benefit overall. But, traditional systems are often also zero sum games (as opposed to positive sum ones via web3), so it is not that surprising that [the most versatile substance on the planet was used to create a shield*](https://youtu.be/hI9GyhX7yHM?t=266).
 
@@ -47,6 +47,10 @@ Having said that, the gas you pay to the network is only once, and to facilitate
 ### Stateless Contracts
 
 Another cool aspect of on chain dynmaics is that since all transactions are recorded (and publicly accessible) and every interaction with the chain is considered to be a transaction, we can *cleverly* store data as part of the transaction, ie, interacting with the network, such as calling a function in a smart contract, and then retrive it by decoding the (past) transaction that can be easily obtained by seeing the shared ledger. This manipulation of protocol schemes (and seeing problems in a different light) helps to reduce gas costs, and thus make the entire project scalable, for the experience is now more acccessible.
+
+### Pull Requests
+> _TODO_
+
 
 ## Voting and Amnesty
 > DPoS TODO
