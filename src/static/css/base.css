@@ -14,45 +14,55 @@ body {
 }
 
 div {
+  margin: 1rem;
+  padding: 3rem;
+}
 
+p:before {
+  content: "\00a0\00a0 ";
 }
 
 p {
+  margin: 0.2rem;
+  padding: 0.5rem;
+  line-height: 2.1rem;
+  text-align: justify;
+}
+
+span {
 
 }
 
 a {
-
+  text-decoration: none;
+  cursor: pointer;
+  text-decoration-line: underline;
+  text-underline-offset: 0.5rem;
+  color: #333;
 }
 
-/* define defaults */
+/* define global defaults */
 
 .dark {
   background-color: #333;
   color: antiquewhite;
 }
 
-.dark > a {
-
+.dark a {
+  color: antiquewhite;
 }
 
 
 .base-font {
-
   font-size: 1.3rem;
-
 }
 
 .small-font {
-
   font-size: 0.8rem;
-
 }
 
 .big-font {
-
   font-size: 2.1rem;
-
 }
 
 
@@ -60,14 +70,14 @@ a {
 
 
 div.container {
-
   padding: 1rem;
   margin: 2rem 3rem;
-
 }
 
 div.story {
-
+  padding: 2rem;
+  margin: 1rem;
+  font-family: monospace;
 }
 
 p.paragraph {
