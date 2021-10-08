@@ -1,0 +1,51 @@
+body {
+  background-color: #333;
+  color: antiquewhite;
+  font-family: monospace;
+  font-size: 1.3rem;
+}
+
+div {
+  margin: 1rem;
+  padding: 3rem;
+}
+
+header {
+  font-size: 2.1rem;
+  line-height: 3.4rem;
+  padding: 1.3rem 0;
+}
+
+p:before {
+  content: "\00a0\00a0 ";
+}
+
+p {
+  margin: 0.2rem;
+  padding: 0.5rem;
+  line-height: 2.1rem;
+  text-align: justify;
+}
+
+ul {
+  margin: 2.1rem 0;
+  padding: 0 0.8rem;
+  list-style: outside none none;
+  background-image: url("src/static/img/cover.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: 6.9rem;
+}
+
+li {
+  padding: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  text-decoration-line: underline;
+  text-underline-offset: 0.5rem;
+  color: antiquewhite;
+}
