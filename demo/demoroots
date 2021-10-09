@@ -1,0 +1,23 @@
+# chain roots #
+!name:demo.tampopo.eth
+main:
+draft:
+goerli:
+
+# mainchain vars #
+mind:
+body:
+soul:
+hash:
+
+# draftchain vars #
+mind:
+body:
+soul:
+hash:
+
+# goerlichain vars #
+mind:
+body:
+soul:
+hash:
