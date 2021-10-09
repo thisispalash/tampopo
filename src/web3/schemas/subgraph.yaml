@@ -1,0 +1,5 @@
+specVersion: 0.0.1
+description: tampopo[dot]eth Network Indexer
+repository: https://github.com/thisispalash/tampopo/
+schema:
+  file: ./schema.graphql

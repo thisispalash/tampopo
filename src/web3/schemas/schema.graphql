@@ -1,0 +1,9 @@
+type Persona @entity {
+  id: ID!
+  addr: Bytes!
+  
+  mind: Bytes | null
+  body: Bytes | null
+  soul: Bytes | null
+
+}
