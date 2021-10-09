@@ -1,6 +1,7 @@
 # tampopo [dot] eth
-> [Won't you](https://emptyyourmug.com/) [unravel me](https://pullmythread.com/), [my love](https://tampopo.xyz) ?! \
-> Made as a part of [EthOnline 2021](https://web.archive.org/web/20210912132034/https://online.ethglobal.com/). Check out the [submission here](https://showcase.ethglobal.com/ethonline2021/tampopo-dot-eth)!
+> [Won't you](https://emptyyourmug.com/) please [unravel me](https://pullmythread.com/), [my love](https://tampopo.xyz) ?! \
+>> Made as a part of [EthOnline 2021](https://web.archive.org/web/20210912132034/https://online.ethglobal.com/). \
+>> Check out the submission [here](https://showcase.ethglobal.com/ethonline2021/tampopo-dot-eth)..
 
 We can be anyone we want to be on the internet, so let's all be *singularly* real, in the hopes of abolishing from this world duality we may rise above and all be cubed !
 
@@ -48,16 +49,14 @@ This repository is split into four branches - [`takeoff`](), [`land`](), [`runwa
 - `runway` This branch is akin to the `master` branch, ie, where devs are invited to test new features
 - `hangar` This branch is akin to the `dev` branch, ie, where devs actually do the dev
 
-### Future Considerations
+## Future Considerations
+> _read_ BUIDL open source projects and release for the benefit of all !
 
-You could consider building the following *lego bricks* for the network and releasing them for free (copy*left* open source).
-
-- [ ] tampopo [dot] eth explorers for *meaningful* and insightful stats of the network
-- [ ] alternate document specifications, such as poetry, plays, scripts, etc.
-- [ ] openAI integrations for *fun*, and convenience
-- [ ] private publishing networks on `görli` testnet (for PoA)
-- [ ] TEST CASES, please
-
+- [ ] Ontologies and semantic _understanding_ by standarised formats
+- [ ] `görli-testnet` Clique PoA for DPoS voting, _and_ assistance
+- [ ] OpenAI conveniences; speech-to-text and vice versa, ...
+- [ ] Colour theory; quicker _damping_ at `pullmythread.com`
+- [ ] p2p serving, _state_ channels for _always on_ service
 
 ## Further Reading
 
@@ -67,7 +66,9 @@ The `docs` provide a good start to the project; Open the folder and pick any fil
 - [`externals.md`]() :: External projects integrated, and design inspirations
 - [`functionality.md`]() :: A quick start to the network and user features
 - [`merging.md`]() :: A little more on personas and *merging* with `mainchain`
+- [`ontonlogies.md`]() :: Semantic web is web3, not just cryptocurrency
 - [`openai.md`]() :: Some thoughts on OpenAI GPT-3 integrations; ***highly incomplete***
+- [`quantum.md`]() :: Applying quantum principles to the extended graph/tree/list
 - [`scalability.md`]() :: Notes on how the network uses L2 scalability solutions (optimistic mining, zk-minting)
 - [`security.md`]() :: A brief explainer on the privacy measures in the network (inherent or otherwise), from keys and tries to proofs and truths
 - [`tokenomics.md`]() :: A little on the native network token - the `tP` token
