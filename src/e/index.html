@@ -12,14 +12,20 @@
     <meta charset="utf-8">
     <meta name="application-name" content="emptyyourmug@tampopo[dot]eth">
     <meta name="author" content="@isthispalash">
-    <meta name="description" content="Empty your mind by screaming your story into the abyss ..!">
+    <meta name="description" content="Come, empty your mind like the headmaster of Hogwarts and their Pensieve. Publish to the world, and be rewarded when people are enraptured by your story!">
     <meta name="keywords" content="storytelling, web3, colours">
     <meta name="generator" content="">
     <meta name="revised" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta name="og:property" content="https://thisispalash.com/tampopo/src/static/img/e.png"/>
+    <meta property="og:title" content="Empty your MUG !" />
+    <meta property="og:type" content="decentralised application" />
+    <meta property="og:url" content="https://emptyyourmug.com" />
+    <meta property="og:image" content="https://thisispalash.com/tampopo/src/static/img/logo.png" />
+    <meta property="og:description" content="Come, empty your mind like the headmaster of Hogwarts and their Pensieve. Publish to the world, and be rewarded when people are enraptured by your story!" />
+    
 
+    <meta name="theme-color" content="#333333">
 
     <!-- Style Sheets -->
     <link rel="stylesheet" href="../static/css/base.css">
@@ -31,24 +37,28 @@
 
   <body class="dark base-font">
   
-    <noscript>
+    <div>
+      <noscript>
+    
+        <div>
+          <p>
+            Hello there! This website requires javascript to be enabled for it to function properly. Really, it is 2021, why do you have <code>js</code> disabled?! Anyhoo, this website helps you share your <i>stories</i> with a global community on a network that attempts to convert time and attention to money. Furthermore, the network also serves as a publishing platform where the creators are rewarded with network tokens that can be exchanged for real* money.
+          </p>
   
-      <div>
-        <p>
-          Hello there! This website requires javascript to be enabled for it to function properly. Really, it is 2021, why do you have <code>js</code> disabled?! Anyhoo, this website helps you share your <i>stories</i> with a global community on a network that attempts to convert time and attention to money. Furthermore, the network also serves as a publishing platform where the creators are rewarded with network tokens that can be exchanged for real* money.
-        </p>
+          <p>
+            It essentially works by <i>mining</i> network tokens on every link click, for which <code>js</code> is used. The link clicks <i>unravel</i> a story (or article) in front of your eyes, making <i>tracking</i> engagement with a story feasible. Normally this level of behaviour tracking would be used for displayed aggressively targetted advertisements. <code>web3</code> allows us to incentivise for public good by making the tools of <i>all humanity accessible to each individual in that humanity</i>. You can read more about the project <a href="https://github.com/thisispalash/tampopo" target="_blank">on GitHub</a>.
+          </p>
+  
+          <p>
+            The domain you have <i>landed</i> on allows you to ...
+          </p>
+        </div>
+    
+      </noscript>
+    </div>
+  
+    <div class="container"></div>
 
-        <p>
-          It essentially works by <i>mining</i> network tokens on every link click, for which <code>js</code> is used. The link clicks <i>unravel</i> a story (or article) in front of your eyes, making <i>tracking</i> engagement with a story feasible. Normally this level of behaviour tracking would be used for displayed aggressively targetted advertisements. <code>web3</code> allows us to incentivise for public good by making the tools of <i>all humanity accessible to each individual in that humanity</i>. You can read more about the project <a href="https://github.com/thisispalash/tampopo" target="_blank">on GitHub</a>.
-        </p>
-
-        <p>
-          The domain you have <i>landed</i> on allows you to ...
-        </p>
-      </div>
-  
-    </noscript>
-  
   </body>
 
 
@@ -58,9 +68,11 @@
 
   <!-- essential scripts -->
   <script src="../static/js/externals/jquery-3.6.0.js"></script>
+  <script src="../static/js/externals/jssha3-3.2.0.js"></script>
+  <script src="../static/js/externals/jquerymobile-1.4.5.js"></script>
+  
   <script src="../static/js/index.js"></script>
   <script src="../static/js/trotter.js"></script>
-  <script src="../static/js/externals/jquerymobile-1.4.5.js"></script>
 
 
   <!-- site spcific code -->
@@ -68,6 +80,14 @@
     
     function e() {
       console.log('Hello there!');
+
+      setup();
+      skeleton();
+      avatar();
+
+      
+      // else, skeleton('draft', 'demo');
+      
 
     }
 
@@ -86,9 +106,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/web3@1.6.0/dist/web3.min.js"></script>
   
-  <!-- closing scripts -->
+  <!-- closing code -->
   <script>
-
+    
   </script>
 
 </html>

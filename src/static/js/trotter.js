@@ -7,16 +7,42 @@
 
 
 function majik() {
-  // Where the magic happens
+  /* where the magic happens */
+
+  // load story in story-container
+  // load leaves to pull
+
+}
+
+function colours() {
+  /* visual display to show story depth */
 
 }
 
 function anal() {
-  // annoying af analytics
+  /* annoying af analytics */
 
 }
 
-function cup() {
-  // visual display to show story depth
+
+/** internal fns, read at your own peril **/
+
+function _fetch(root, side) {
+  // fetch the next node in tree
+
+  return ( other, {
+    'left': otherleft,
+    'right': otherright
+  } );
 
 }
+
+
+
+/** ultra internal fns, definitely do not alter **/
+
+function __build() {
+  // 
+
+}
+
