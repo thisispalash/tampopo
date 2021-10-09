@@ -22,7 +22,7 @@ Web3 also brings forth, and indeed hyperboles, the transactional nature of the m
 
 ## Network Information
 
-tampopo consists of three networks - i. the default `mainchain` where all the action happens; ii. a `draftchain` for storytellers to get some feedback on their stories prior to publishing; and iii. a `hidechain` for permissioned access to a story, ie, invite-only story views for more sensitive content. Each chain uses a different Ethereum chain (such as `homestead`, `ropsten`, etc.) for their unique capabilities, as explained further;
+tampopo consists of three networks - i. the default `mainchain` where all the action happens; ii. a `draftchain` for storytellers to get some feedback on their stories prior to publishing; and iii. a `hidechain` for permissioned access to a story, ie, invite-only story views for more sensitive content. Each chain uses a different Ethereum chain (such as `mainnet`, `ropsten`, etc.) for their unique capabilities, as explained further;
 
 **mainchain** This is the default chain for the network, running as a layer-2 chain on the main Ethereum Network (`mainnet`). A bunch of smart contracts help peg the value of `tP` tokens to ether, and thus real-world* value. Every public story that is publised to the network resides as a story hash on this chain.
 
