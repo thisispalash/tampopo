@@ -15,7 +15,7 @@ function _fallback() {
   const container = document.getElementsByClassName('container')[0]
   const noscript = document.getElementsByTagName('noscript')[0]
 
-  container.innerHTML = noscript.innerHTML
+  container.innerHTML = noscript.innerText // innerHTML doesn't work on Safari
   noscript.parentNode.parentNode.removeChild(noscript.parentNode)
 
   delete container, noscript
