@@ -45,8 +45,8 @@ In summary, you create a persona on either website (`emptyyourmug.com` || `pullm
 This repository is split into four branches - [`takeoff`](), [`land`](), [`runway`](), and [`hangar`]();
 
 - `takeoff` This branch is akin to the `release` branch, ie, where users or visitors stumble upon
-- `land` This is akin to the `staging` branch, ie, where public users are invited to test new features
-- `runway` This branch is akin to the `master` branch, ie, where devs are invited to test new features
+- `runway` This is akin to the `staging` branch, ie, where public users are invited to test new features
+- `taxi` This branch is akin to the `master` branch, ie, where devs and core members are invited to test new features
 - `hangar` This branch is akin to the `dev` branch, ie, where devs actually do the dev
 
 ## Future Considerations
