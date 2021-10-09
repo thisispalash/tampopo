@@ -1,11 +1,11 @@
 # tampopo [dot] eth
-> [Won't you](https://emptyyourmug.com/) please [unravel me](https://pullmythread.com/), [my love](https://tampopo.xyz) ?! \
+> [Won't you](https://emptyyourmug.com/ "empty your MUG !") please [unravel me](https://pullmythread.com/ "pull MY thread"), [my love](https://tampopo.xyz "tampopo [dot] eth") ?! \
 >> Made as a part of [EthOnline 2021](https://web.archive.org/web/20210912132034/https://online.ethglobal.com/). \
 >> Check out the submission [here](https://showcase.ethglobal.com/ethonline2021/tampopo-dot-eth)..
 
 We can be anyone we want to be on the internet, so let's all be *singularly* real, in the hopes of abolishing from this world duality we may rise above and all be cubed !
 
-Ever seen Harry Potter? There is a scene where Albus Dumbledore uses his wand to remove a memory from his mind to empty into the [Pensieve](https://harrypotter.fandom.com/wiki/Pensieve). Tampopo does exactly that, but with all the benefits of web3, ie, it incentivises _you_ to outpour your stories [read: empty your mugs] onto the network. The stories are represented as the balls of coloured yarn that they usually are, by having them displayed in the form of interactive, clickable links. As the reader clicks, parts of the story are revealed. Think of it as pulling the threads of the yarn ball, and as the reader pulls more, you earn* more; because web3.
+Ever seen Harry Potter? There is a scene where Albus Dumbledore uses his wand to remove a memory from his mind to empty into the [Pensieve](https://harrypotter.fandom.com/wiki/Pensieve "Harry Potter Wiki"). Tampopo does exactly that, but with all the benefits of web3, ie, it incentivises _you_ to outpour your stories [read: empty your mugs] onto the network. The stories are represented as the balls of coloured yarn that they usually are, by having them displayed in the form of interactive, clickable links. As the reader clicks, parts of the story are revealed. Think of it as pulling the threads of the yarn ball, and as the reader pulls more, you earn* more; because web3.
 
 ## The Revolution
 
@@ -34,15 +34,15 @@ tampopo consists of three networks - i. the default `mainchain` where all the ac
 ## Contributing Guidelines
 > read: participating with the network
 
-The beautiful thing about open-source, is that you can *copypasta*. Moreover, code is a language; one to express ideas in (shamelessly stolen from [Lex Clips](https://www.youtube.com/c/LexClips)), and as such these are my ideas, hence there is no contributing, per se, permitted. Having said that, since the entire repository is under a [copyleft license](), you are free to fork it or even just copy individual lines from any file (*note:* the license mentions stating source of code, but also emphasises no liability, thereby making a sort of honour system possible; so, will you be honourable?).
+The beautiful thing about open-source, is that you can *copypasta*. Moreover, code is a language; one to express ideas in (shamelessly stolen from [Lex Clips](https://www.youtube.com/c/LexClips "Lex Fridman YT")), and as such these are my ideas, hence there is no contributing, per se, permitted. Having said that, since the entire repository is under a [copyleft license](LICENSE), you are free to fork it or even just copy individual lines from any file (*note:* the license mentions stating source of code, but also emphasises no liability, thereby making a sort of honour system possible; so, will you be honourable?).
 
-Also, the most ideal, and indeed quickest for it is designed as so, way to *contribute* to the network, is to *participate* in it - either by [emptying your cup]() or by [filling it](). Either link helps mine `tP` tokens, which are made real by purchases of stories as memorablia of the time shared together (across space) [as an NFT [read: ERC-1155 multitoken]]. Of course, you may read stories for free without paying anything, but then I would be obliged to refer you to the honour code mentioned above.
+Also, the most ideal, and indeed quickest for it is designed as so, way to *contribute* to the network, is to *participate* in it - either by [emptying your mug](https://emptyyourmug.com/) or by [filling it](https://pullmythread.com/). Either link helps mine `tP` tokens, which are made real by purchases of stories as memorablia of the time shared together (across space) [as an NFT [read: ERC-1155 multitoken]]. Of course, you may read stories for free without paying anything, but then I would be obliged to refer you to the honour code mentioned above.
 
-In summary, you create a persona on either website (`emptyyourmug.com` || `pullmythread.com`) to share your stories or consume others' stories (respectively). Either of those activities mines fresh `tP` network tokens, which are made real* and consumable using some [web3 magic](). The idea behind the network is effectively an idea, that of existential dread - for aren't we all just stories at the end of it all? If so, why not become immortal together and scream out our [colourful] stories into the abyss*? This network is that abyss, with some effort to make sense of the chaos as well, of course.
+In summary, you create a persona on either website (`emptyyourmug.com` || `pullmythread.com`) to share your stories or consume others' stories (respectively). Either of those activities mines fresh `tP` network tokens, which are made real* and consumable using some [web3 magic](docs). The idea behind the network is effectively an idea, that of existential dread - for aren't we all just stories at the end of it all? If so, why not become immortal together and scream out our [colourful] stories into the abyss*? This network is that abyss, with some effort to make sense of the chaos as well, of course.
 
 ### Branch Information
 
-This repository is split into four branches - [`takeoff`](), [`land`](), [`runway`](), and [`hangar`]();
+This repository is split into four branches - [`hangar`](https://github.com/thisispalash/tampopo/tree/hangar "switch branch"), [`taxi`](https://github.com/thisispalash/tampopo/tree/taxi "switch branch"), [`runway`](https://github.com/thisispalash/tampopo/tree/runway "switch branch"), and [`takeoff`](https://github.com/thisispalash/tampopo/tree/takeoff "switch branch");
 
 - `takeoff` This branch is akin to the `release` branch, ie, where users or visitors stumble upon
 - `runway` This is akin to the `staging` branch, ie, where public users are invited to test new features
@@ -60,16 +60,6 @@ This repository is split into four branches - [`takeoff`](), [`land`](), [`runwa
 
 ## Further Reading
 
-The `docs` provide a good start to the project; Open the folder and pick any file that interests you. Or click for the specific file based on short descriptionbs below,
-
-- [`colours.md`]() :: A little more on translating *moods* to colours
-- [`externals.md`]() :: External projects integrated, and design inspirations
-- [`functionality.md`]() :: A quick start to the network and user features
-- [`merging.md`]() :: A little more on personas and *merging* with `mainchain`
-- [`ontonlogies.md`]() :: Semantic web is web3, not just cryptocurrency
-- [`openai.md`]() :: Some thoughts on OpenAI GPT-3 integrations; ***highly incomplete***
-- [`quantum.md`]() :: Applying quantum principles to the extended graph/tree/list
-- [`scalability.md`]() :: Notes on how the network uses L2 scalability solutions (optimistic mining, zk-minting)
-- [`security.md`]() :: A brief explainer on the privacy measures in the network (inherent or otherwise), from keys and tries to proofs and truths
-- [`tokenomics.md`]() :: A little on the native network token - the `tP` token
-- [`trotter.md`]() :: Why this project is essentially [alan](https://alantrotter.com/)[+](https://emptyyourmug.com/)[+](https://pullmythread.com/)
+- [`doc`](docs) : This is a great place to start reading more, and understanding the core of the system / network. A lot of effort has been put into composing those documents, so please do leave behind some [constructive] feedback upon reading it !
+- [`src`](src) : This is great place if you understand code and would rather just jump in. Tremendous effort has been put in to make the code extremely consice, and simple. Comments (and questions) would also be helpful here !!
+- [`pdf`](docs/pdf) : This is the place if you like to dive directly into the articles and papers that influence the design of networks. Every attempt is made to keep this folder up to date, but ...
