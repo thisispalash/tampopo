@@ -1,0 +1,39 @@
+## tampopo-[dot]-eth YAML
+# 
+# contracts :
+#   network-core :
+#     faucet.sol  : 
+#     persona.sol :
+#     publish.sol :
+#     tptoken.sol :
+#   tokenomics :
+#     donate.sol :
+#     liquid.sol :
+#     rollup.sol :
+#   
+####
+
+# metadata #
+specVersion: 0.0.1
+description: tampopo[dot]eth Network Indexer
+repository: https://github.com/thisispalash/tampopo/
+schema:
+  file: ./schema.graphql
+# end metadata #
+
+# contract sources #
+dataSources:
+  # contract.sol #
+  - kind: ethereum/contract
+    name: 
+    network: 
+    source:
+      address: ""
+      abi: 
+      startBlock: 
+  # end contract.sol #
+# endcontract sources #
+
+# tamplate objects #
+templates:
+

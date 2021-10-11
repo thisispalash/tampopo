@@ -1,0 +1,114 @@
+## 
+
+
+# network events #
+
+type Mint @entity {
+  id: ID! # factory
+
+  # minting information #
+  owner: Persona!
+  paid: BigInt!
+  token: Bytes! ## contract of token paid
+  name: String
+  value: BigInt!
+  # end minting information #
+
+  # mining information #
+  mined: BigInt!
+  price: BigDecimal!
+  base_addr: Bytes!
+  base: String
+  # end mining information #
+
+}
+
+type Transaction @entity {
+  id: ID! # factory
+
+  # network information #
+  from: Persona!
+  to: Persona | Contract
+  # network information #
+
+  
+}
+
+type Request @entity {
+  id: ID!
+  from: Persona!
+
+}
+
+# network objects #
+
+type Token @entity {
+  id: ID!
+  network: String!
+  addr: Bytes!
+
+  name: String
+  base: String
+  value: BigInt!
+  inbase: BigInt!
+  decimals: Int!
+}
+
+type Story @entity {
+  id: ID!
+  date: Date! ## most recent blocktime
+  root: Bytes! ## most upto date root
+  token: [Token] ## for multiple networks
+  owner: Persona ## who published the story
+
+  hue: Bytes!
+  sat: Int
+  lum: Int
+
+  depth: Int!
+  links: Int!
+  
+  hodler: [Persona]
+  txns: [Transaction]
+
+
+}
+
+type Rollup @entity {
+  id: ID!
+
+}
+
+
+# network actors #
+
+type Persona @entity {
+  id: ID! # factory
+
+  # metadata #
+  sig: Bytes! ## most current signature for the persona
+  date: Date! ## last commit date and time
+  name: String! ## <persona-name>.tampopo.eth
+  region: String! ## CBDC name
+  # end metadata #
+  
+  # profile root #
+  mind: Bytes! ## most current root for the first line
+  body: Bytes! ## most current root for the second line
+  soul: Bytes! ## most current root for the third line
+  # end profile root #
+
+  # analytics and statistics #
+  reading: [Story]
+  published: [Story]
+
+  tokens: [Token]
+  orders: [Request]
+  # end analytics and statistics #
+
+}
+
+type Contract @entity {
+  id: ID! # factory
+
+}
